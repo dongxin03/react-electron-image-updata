@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display:flex;
+  flex-direction: column;
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.content{
+  padding:10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex:1;
+}
+.set-button{
+  text-align: right;
+  padding-right: 10px;
+}
+.set-button span{
+  border:1px solid #09d3ac;
+  border-radius: 2px;
+  display: inline-block;
+  padding:0 5px;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.select-content{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.select-content .into{
+  border:1px dashed #09d3ac;
+  border-radius: 6px;
+  width: 100%;
+  flex:1;
+  color:#fff;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.select-content .into ul,li{
+  margin:0;
+  padding:0;
+  list-style: none;
+  background-color: #fff;
+  color:#000;
+  font-size: 14px;
+  text-align: left;
+  padding-left: 15px;;
+}
+.select-content .into p{
+  padding-top: 80px;
+}
+.select-content .select-image-button{
+  position: relative;
+}
+.select-content .select-image-button input{
+  opacity: 0;
+  width: 70px;
+  position: absolute;
+  top:0;
+  left:50%;
+  transform: translateX(-50%);
+}
+.select-content .select-image-button span{
+  border:1px solid #09d3ac;
+  padding: 2px 5px;
+  font-size: 14px;
+  border-radius: 2px;
+}
+.updata-url{
+  display: flex;
+  background-color: #fff;
+  color:#000;
+  font-size: 14px;
+  justify-content:space-between;
+}
+.updata-url p{
+  margin:0;
+  min-width: 70px;
+}
+.updata-url .image-url{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  flex-shrink:1;
+}
+.updata-url .copy{
+  background-color: #cacaca;
+}
