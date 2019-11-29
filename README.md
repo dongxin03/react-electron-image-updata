@@ -1,15 +1,4 @@
----
-title: react+electron搭建七牛云上传图片桌面端
-comments: true #是否可评论
-categories:  #分类
-    - react
-    - 七牛云
-tags:   #标签
-    - react
-    - election
-layout: react
-date: 2019-11-28 16:35:57
----
+[博客位置](https://dongxin03.github.io/2019/11/28/react+electron%E6%90%AD%E5%BB%BA%E4%B8%83%E7%89%9B%E4%BA%91%E4%B8%8A%E4%BC%A0%E5%9B%BE%E7%89%87%E6%A1%8C%E9%9D%A2%E7%AB%AF/);
 ### 咋想的
 > 每次上传图到七牛云，都需要登录七牛云找到仓库，上传。步骤有些繁琐。所以自己做个上传的小工具。
 * 自己画的原型图————简单、明了、好看
